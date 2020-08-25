@@ -1,0 +1,20 @@
+:root{
+    --font-family:'DM Serif Display', serif;
+}
+
+body{
+    font-family: var(--font-family);
+    font-weight: 400;
+}
+
+.container{
+    display: flex;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
