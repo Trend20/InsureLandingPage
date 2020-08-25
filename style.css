@@ -9,7 +9,10 @@ body{
 
 .container{
     display: flex;
+    flex-direction: column;
     overflow-x: hidden;
+    width: 100%;
+    height: 100%;
 }
 
 header{
@@ -82,3 +85,20 @@ nav ul li a{
     /* top: 60px; */
     /* left: 80px; */
 }
+
+/* end of header styles */
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+    background-color: #141c2f;
+    position: relative;
+    width: 100%;
+    color: #fff;
+}
+
+.intro-text{
+    display: flex;
+}
+
