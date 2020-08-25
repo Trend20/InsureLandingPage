@@ -17,4 +17,68 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.logo{
+    margin-left: 3rem;
+    width: 30%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+}
+
+nav ul{
+    display: flex;
+    width: 80%;
+}
+
+nav ul li{
+    list-style: none;
+    padding: .5rem;
+    width: 100%;
+}
+
+
+nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 90%;
+    color: #706f6f;
+}
+
+#button{
+    border: 2px solid #222;
+    max-width: 30%;
+    text-align: center;
+    height: 1.5em;
+}
+
+#button >a{
+    color: #222;
+    padding-top: 100%;
+}
+
+.toggle{
+    display: flex;
+    position: absolute;
+    left: 95%;
+    visibility: hidden;
+}
+
+#hum{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#close{
+    position: absolute;
+    /* top: 60px; */
+    /* left: 80px; */
 }
