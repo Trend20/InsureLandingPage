@@ -145,8 +145,55 @@ nav ul li a{
     height: 30%;
 }
 
+/* services section styles */
 
+.services{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rem;
+    margin-left: 3rem;
+}
 
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.header >span{
+    border: 1px solid #706f6f;
+    width: 30%;
+    margin-bottom: 2rem;
+}
+
+.header >h1{
+    font-weight: 400;
+    font-size: 4.1rem;
+    font-family: var(--heading-family);
+    width: 80%;
+}
+
+.offers{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.offer{
+    width: 30%;
+}
+
+.offer >h3{
+    font-weight: 400;
+    font-size: 2rem;
+    font-family: var(--heading-family);
+}
+
+.offer >p{
+    line-height: 1.5;
+    color: #706f6f;
+    font-size: 1.05rem;
+}
 
 
 
