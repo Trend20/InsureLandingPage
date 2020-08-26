@@ -134,6 +134,7 @@ nav ul li a{
     background: transparent;
     color: #fff;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .intro-image{
@@ -142,8 +143,9 @@ nav ul li a{
     left: 50%;
     width: 50%;
     height: 30%;
-    /* margin-right: 10rem; */
 }
+
+
 
 
 
