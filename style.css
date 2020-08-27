@@ -195,5 +195,23 @@ nav ul li a{
     font-size: 1.05rem;
 }
 
+/* about styles */
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    background: #141c2f;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: .2rem;
+    height: 15rem;
+}
+
+
+
 
 
