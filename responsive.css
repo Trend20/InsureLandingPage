@@ -1,0 +1,135 @@
+@media screen and (max-width:480px){
+
+    .container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+    }
+    
+    .logo{
+        margin-left: 0;
+        width: 10%;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 80%;
+        margin-top: 5rem;
+    }
+    
+    nav ul{
+        display: flex;
+        visibility: hidden;
+        flex-direction: column;
+        width: 40%;
+    }
+    
+    nav ul li{
+        list-style: none;
+        padding: .5rem;
+        width: 100%;
+        font-size: .6rem;
+        font-weight: bold;
+        width: 80%;
+        text-align: center;
+    }
+    
+    
+    nav ul li a{
+        text-transform: uppercase;
+        text-decoration: none;
+        width: 50%;
+        color: #706f6f;
+    }
+    
+    #button{
+        border: 2px solid #222;
+        text-align: center;
+        height: .8rem;
+        width: 100%;
+        margin-left: 3rem;
+    }
+    
+    #button >a{
+        color: #222;
+        padding-top: 1rem;
+    }
+    
+    .toggle{
+        display: flex;
+        position: absolute;
+        left: 90%;
+        visibility: visible;
+        cursor: pointer;
+        width: 20%;
+    }
+    
+    #hum{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+    #close{
+        position: absolute;
+        /* top: 60px; */
+        /* left: 80px; */
+    }
+/* intro */
+        .intro{
+           width: 100%;
+           display: flex;
+           flex-direction: column-reverse;
+           align-items: center;
+           justify-content: space-between;
+        }
+        
+        .intro-text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-left: 0;
+            padding: 0;
+            margin-bottom: 100rem;
+        }
+        
+        .intro-text >span{
+            visibility: hidden;
+        }
+        
+        .intro-text >h1{
+            width: 90%;
+            align-items: center;
+            margin: 10px;
+            text-indent: 30px;
+        }
+        
+        .intro-text >p{
+            width: 80%;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+        
+        .intro-text >button{
+            width: 40%;
+            cursor: pointer;
+        }
+        
+        .intro >img{
+           width: 100%;
+           left: 0;
+           top: 0;         
+        }
+     }

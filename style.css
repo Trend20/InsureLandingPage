@@ -23,6 +23,7 @@ header{
     width: 100%;
     height: auto;
     position: relative;
+    margin-bottom: -80px;
 }
 
 .logo{
@@ -90,198 +91,72 @@ nav ul li a{
 }
 
 
-/* header media queries */
-@media screen and (max-width:480px){
-
-    .container{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    header{
-       display: flex;
-       justify-content: space-evenly;
-       align-items: center;
-    }
-    
-    .logo{
-        margin-left: 0;
-        width: 10%;
-    }
-    
-    nav{
-        display: flex;
-        justify-content: center;
-        height: auto;
-        width: 80%;
-        margin-top: 5rem;
-    }
-    
-    nav ul{
-        display: flex;
-        visibility: hidden;
-        flex-direction: column;
-        width: 40%;
-    }
-    
-    nav ul li{
-        list-style: none;
-        padding: .5rem;
-        width: 100%;
-        font-size: .6rem;
-        font-weight: bold;
-        width: 80%;
-        text-align: center;
-    }
-    
-    
-    nav ul li a{
-        text-transform: uppercase;
-        text-decoration: none;
-        width: 50%;
-        color: #706f6f;
-    }
-    
-    #button{
-        border: 2px solid #222;
-        text-align: center;
-        height: .8rem;
-        width: 100%;
-        margin-left: 3rem;
-    }
-    
-    #button >a{
-        color: #222;
-        padding-top: 1rem;
-    }
-    
-    .toggle{
-        display: flex;
-        position: absolute;
-        left: 90%;
-        visibility: visible;
-        cursor: pointer;
-        width: 20%;
-    }
-    
-    #hum{
-        position: relative;
-        top: 0;
-        left: 0;
-    }
-    
-    #close{
-        position: absolute;
-        /* top: 60px; */
-        /* left: 80px; */
-    }
-    
-}
 
 /* end of header styles */
-
 .intro{
-    background-color: #141c2f;
-    color: #fff;
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
-    height: auto;
-}
-
-.intro-text{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
+    background: #141c2f;
     margin-top: 5rem;
-    margin-left: 10rem;
-    margin-bottom: 2rem;
-    width: 50%;
+    width: 100%;
     position: relative;
 }
 
-.intro-text >span{
-    border: 1px solid #706f6f;
-    width: 20%;
-}
-
-.intro-text >h1{
-    font-size: 3.5rem;
-    width: 60%;
-    font-weight: 400;
-    font-family: var(--heading-family);
-}
-
-.intro-text >p{
-    width: 80%;
-    line-height: 1.5;
-}
-
-.intro-text >button{
-    border: 2px solid #fff;
-    width: 25%;
-    height: 3rem;
-    background: transparent;
+.intro-text{
+    justify-content: space-around;
     color: #fff;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-.intro-image{
-    margin-top: 5rem;
-    position: absolute;
-    left: 55%;
+    margin-left: 10rem;
+    margin-top: 10rem;
     width: 50%;
-    height: 30%;
+    display: flex;
+    flex-direction: column;
 }
- .intro-image >img{
-     width: 70%;
- }
- /* into queries */
- @media screen and(max-width:480px){
-    .intro{
-       display: flex;
-       width: 100%;
-    }
-    
-    .intro-text{
-        
-    }
-    
-    .intro-text >span{
-        
-    }
-    
-    .intro-text >h1{
-        
-    }
-    
-    .intro-text >p{
-        
-    }
-    
-    .intro-text >button{
-        
-    }
-    
-    .intro-image{
-       max-width: 100%;
-    }
-     .intro-image >img{
-        max-width: 100%;
 
-     }
- }
+.intro-text >span{
+    border: .5px solid #cfcbcb;
+    width: 15%;
+}
 
+.intro-text>h1{
+    font-family: var(--heading-family);
+    font-weight: 400;
+    font-size: 3.5rem;
+    width: 65%;
+}
+
+.intro-text>p{
+    line-height: 1.5;
+    width: 80%;
+}
+
+.intro-text>button{
+    width: 25%;
+    background: transparent;
+    height: 3rem;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-bottom: 5rem;
+}
+
+.image{
+    position: absolute;
+    left: 60%;
+    top: 25%;
+}
+
+.image>img{
+    width: 85%;
+}
 /* services section styles */
 
 .services{
     display: flex;
     flex-direction: column;
-    margin-top: 20rem;
+    margin-top: 10rem;
     margin-left: 10rem;
 }
 
