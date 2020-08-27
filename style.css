@@ -46,6 +46,8 @@ nav ul li{
     list-style: none;
     padding: .5rem;
     width: 100%;
+    font-size: .9rem;
+    font-weight: bold;
 }
 
 
@@ -164,8 +166,8 @@ nav ul li a{
 }
 
 .header >span{
-    border: 1px solid #706f6f;
-    width: 30%;
+    border: 1px solid #cfcbcb;
+    width: 20%;
     margin-bottom: 2rem;
 }
 
@@ -232,6 +234,7 @@ nav ul li a{
     text-transform: uppercase;
     font-weight: 500;
     outline: none;
+    margin-right: 2rem;
 }
 /* footer styles */
 .footer{
@@ -250,11 +253,13 @@ nav ul li a{
 }
 .social{
     cursor: pointer;
+    margin-left: 10rem;
 }
 
 hr{
     border: .5px solid #d1cfcf;
     width: 90%;
+    margin-left: 5rem;
 }
 
 .footer-links{
