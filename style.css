@@ -211,7 +211,64 @@ nav ul li a{
     height: 15rem;
 }
 
+.about .header>h1{
+    color: #fff;
+    width: 100%;
+    font-family: var(--heading-family);
+}
 
+.btn{
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    width: 15%;
+    height: 2.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    outline: none;
+}
+/* footer styles */
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+    background: #f6f4f4;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-top: 5rem;
+}
+
+hr{
+    border: .5px solid #d1cfcf;
+    width: 90%;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.links >h1{
+    text-transform: uppercase;
+    color: #706f6f;
+    font-size: .8rem;
+    letter-spacing: 1.5px;
+}
+
+.links >p{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #312b2b;
+    font-size: .8rem;
+    text-shadow: 20px #555555;
+}
 
 
 
