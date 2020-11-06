@@ -1,0 +1,29 @@
+{
+    "name": "InsureLandingPage",
+    "version": "1.0.0",
+    "description": "![Design preview for the Insure landing page coding challenge](./design/desktop-preview.jpg)",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Trend20/InsureLandingPage.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Trend20/InsureLandingPage/issues"
+    },
+    "homepage": "https://github.com/Trend20/InsureLandingPage#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "ejs": "^3.1.5",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
