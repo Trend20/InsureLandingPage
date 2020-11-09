@@ -21,6 +21,22 @@ app.get('/', (req, res) => {
     res.render('./pages/index');
 });
 
+app.get('/', (req, res) => {
+    res.render('./pages/blog');
+});
+
+app.get('/', (req, res) => {
+    res.render('./pages/plans');
+});
+
+app.get('/', (req, res) => {
+    res.render('./pages/work');
+});
+
+app.get('/', (req, res) => {
+    res.render('./pages/account');
+});
+
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
